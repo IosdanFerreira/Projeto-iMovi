@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Navbar*/
+.navbar{
+    border-bottom: 1px solid gray;
+}
+
+.navbar-brand{
+    font-size: 1.8em;
+    font-weight: bold;
+    display: flex;
+}
+
+.navbar-brand img{
+    width: 45px;
+    margin-right:10px;
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.nav-item{
+    margin-left: 30px;
+}
+
+.nav-link:hover{
+    color:black;
+}
+.active{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.637);
+}
+
+/*Slider*/
+
+.carousel-inner{
+    border-radius:5px;
+}
+.containerCarrosel{
+    margin-top: 25px;
+}
+
+.carousel-caption{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.carousel-caption h5{
+    font-size: 3.0em;
+    text-shadow: 3px 3px black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btn-slider{
+    height:45px;
+    width: 150px;
+    font-weight: bold;
+}
+
+.btn-slider:hover{
+    background-color: black;
+}
+
+/*Cards - mini banners*/
+.mini-banners{
+    margin: 20px 20px 20px 20px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-icon{
+    font-size: 60px;
+}
+
+.card-title{
+    font-weight: bold;
+    margin-bottom:20px;
+}
+
+.btn-card:hover{
+    color:black;
+    font-weight: bold;
+    background-color: rgba(216, 216, 216, 0.658);
+}
+.cards-container{
+    border-bottom:1px solid gray;
+}
+
+/*Trabalhos em Destaque*/
+
+.destaque-title{
+    margin-top:20px;
+    font-size:25pt;
+    font-weight: bold;
+}
+
+.destaque-subtitle{
+    color: gray;
+}
+
+.img-projects{
+    position: relative;
+    cursor:pointer;
+}
+
+.img-caption{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    opacity:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.651);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.img-caption:hover{
+
+    opacity:100;
+}
+
+.img-caption h6{
+    text-align: center;
+    margin-bottom: 30px;
+    color:rgb(87, 86, 86);
+}
+
+/*Detalhes Importantes*/
+
+.detalhes{
+    border-top:1px solid gray;
+}
+.detalhes-data{
+    background-color: rgba(128, 128, 128, 0.233);
+    border-radius: 5px;
+}
+
+/*Footer Redes-sociais*/
+
+.redes-icons a i{
+    padding: 0 10px;
+    color: white;
+    font-size:20pt;
+}
+
+.redes-icons a i:hover{
+    color:rgb(182, 182, 182);
+}
+
+/*Footer Contato*/
+
+.form{
+    color:white;
+    border-right: 1px solid gray;
+}
+
+/*Footer Links*/
+
+.links a{
+    text-decoration: none;
+}
+
+.links a span:hover{
+    color:white;
+    text-decoration: underline;
+}
